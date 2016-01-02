@@ -44,7 +44,7 @@ def create_cat():
     return Cat(name, mood)
 
 def main():
-    print("Type something like 'name_of_cat = create_cat()' to begin. (Don't use quotes.)")
+    print("Type something like 'cookie = create_cat()' to begin. (Don't use quotes.)")
 
 if __name__ == '__main__':
     main()
