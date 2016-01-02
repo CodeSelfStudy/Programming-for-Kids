@@ -6,15 +6,15 @@ class Cat():
         self.mood = mood
 
     def purr(self):
-        """Type c.purr() to make the cat purr."""
+        """Type cat_name.purr() to make the cat purr."""
         print('{} is purring.'.format(self.name))
 
     def eat(self):
-        """Type c.eat() to have the cat eat."""
+        """Type cat_name.eat() to have the cat eat."""
         print('{} is eating... nom nom nom!'.format(self.name))
 
     def climb_tree(self):
-        """Type c.climb_tree() to have the cat climb a tree."""
+        """Type cat_name.climb_tree() to have the cat climb a tree."""
         print('{} is climing the tree.'.format(self.name))
 
 def create_cat():
