@@ -25,6 +25,16 @@ class Cat():
         """Shows the attributes for the cat."""
         print(self.__dict__)
 
+    def change_mood(self, new_mood):
+        """Changes the mood of the cat."""
+        old_mood = self.mood
+        self.mood = new_mood
+        print("{}'s mood was changed from {} to {}!".format(
+                                                        self.name,
+                                                        old_mood,
+                                                        self.mood))
+        self.meow()
+
 
 def create_cat():
     """Creates a cat."""
