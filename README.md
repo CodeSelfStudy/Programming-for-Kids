@@ -1,3 +1,3 @@
-# Programming-for-Kids
+# Programming for Kids
 
-Python scripts to load and edit with Idle3.
+Scripts for kids to run and edit.
